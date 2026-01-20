@@ -1,0 +1,703 @@
+{
+  "card": {
+    "log_id": "divkit_mobile_card",
+    "states": [
+      {
+        "state_id": 0,
+        "div": {
+          "type": "container",
+          "items": [
+            {
+              "type": "container",
+              "items": [
+                {
+                  "type": "image",
+                  "scale": "fill",
+                  "width": {
+                    "type": "match_parent",
+                    "weight": 1
+                  },
+                  "height": {
+                    "type": "match_parent"
+                  },
+                  "image_url": "https://mediadirhub.com/vibe/soft-pastel-blue-gradient-background-with-lavender-text-smriticare-on-right-side.png"
+                },
+                {
+                  "type": "container",
+                  "items": [
+                    {
+                      "text": "SmritiCare",
+                      "type": "text",
+                      "font_size": 30,
+                      "text_color": "#6A5ACD",
+                      "font_weight": "bold",
+                      "line_height": 36,
+                      "text_alignment_horizontal": "start"
+                    },
+                    {
+                      "text": "Your gentle companion for memory care",
+                      "type": "text",
+                      "margins": {
+                        "top": 8
+                      },
+                      "font_size": 18,
+                      "text_color": "#333333",
+                      "font_weight": "regular",
+                      "text_alignment_horizontal": "start"
+                    },
+                    {
+                      "text": "Add Observation",
+                      "type": "_template_hero_cta_button",
+                      "action": {
+                        "url": "action://navigate_to_note_entry",
+                        "log_id": "cta_add_observation"
+                      }
+                    }
+                  ],
+                  "width": {
+                    "type": "match_parent",
+                    "weight": 1
+                  },
+                  "height": {
+                    "type": "match_parent"
+                  },
+                  "paddings": {
+                    "top": 16,
+                    "left": 24,
+                    "right": 24,
+                    "bottom": 24
+                  },
+                  "orientation": "vertical",
+                  "content_alignment_vertical": "start",
+                  "content_alignment_horizontal": "start"
+                }
+              ],
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "fixed",
+                "value": 240
+              },
+              "orientation": "horizontal"
+            },
+            {
+              "text": "Recent Observations",
+              "type": "text",
+              "margins": {
+                "top": 24,
+                "left": 16,
+                "right": 16,
+                "bottom": 12
+              },
+              "font_size": 20,
+              "text_color": "#1A1A1A",
+              "font_weight": "bold"
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "type": "_template_square_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/light-blue-square-card-with-simple-icon-of-a-question-mark-and-soft-shadow.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Confusion",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Patient asked same question twice",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_square_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/lavender-square-card-with-icon-of-a-moon-and-crescent-sleep-symbol.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Sleep",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Fell asleep before dinner",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_square_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/mint-green-square-card-with-icon-of-a-smiling-face.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Mood",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Smiled during music time",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_square_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/pale-blue-square-card-with-icon-of-a-pill-and-water-drop.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Medication",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Took pills with water",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                }
+              ],
+              "height": {
+                "type": "wrap_content"
+              },
+              "margins": {
+                "top": 0,
+                "left": 8,
+                "right": 8,
+                "bottom": 24
+              },
+              "paddings": {
+                "left": 8,
+                "right": 8
+              },
+              "orientation": "vertical",
+              "column_count": 2,
+              "item_spacing": 8
+            },
+            {
+              "text": "Patient Engagement Today",
+              "type": "text",
+              "margins": {
+                "top": 24,
+                "left": 16,
+                "right": 16,
+                "bottom": 12
+              },
+              "font_size": 20,
+              "text_color": "#1A1A1A",
+              "font_weight": "bold"
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "type": "_template_portrait_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 112
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/portrait-card-showing-a-simple-image-of-a-clock-and-calendar-with-soft-glow.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Memory Quiz",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Answered 3 out of 5 questions",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_portrait_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 112
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/portrait-card-with-a-gentle-photo-of-a-woman-smiling-blurred-edges.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Familiar Faces",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Recognized daughter’s photo",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_portrait_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 112
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/portrait-card-with-icon-of-a-teacup-and-morning-sun.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Routine Recall",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Remembered morning tea time",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                },
+                {
+                  "type": "_template_portrait_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 112
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/portrait-card-with-sound-waves-and-traditional-indian-sitar-illustration.png",
+                      "content_alignment_vertical": "center",
+                      "content_alignment_horizontal": "center"
+                    },
+                    {
+                      "text": "Music Time",
+                      "type": "_template_card_title"
+                    },
+                    {
+                      "text": "Tapped foot to raga melody",
+                      "type": "_template_card_description"
+                    }
+                  ]
+                }
+              ],
+              "height": {
+                "type": "wrap_content"
+              },
+              "margins": {
+                "top": 0,
+                "left": 8,
+                "right": 8,
+                "bottom": 24
+              },
+              "paddings": {
+                "left": 8,
+                "right": 8
+              },
+              "orientation": "horizontal",
+              "item_spacing": 10
+            },
+            {
+              "text": "Care Change Overview",
+              "type": "text",
+              "margins": {
+                "top": 24,
+                "left": 16,
+                "right": 16,
+                "bottom": 12
+              },
+              "font_size": 20,
+              "text_color": "#1A1A1A",
+              "font_weight": "bold"
+            },
+            {
+              "type": "container",
+              "items": [
+                {
+                  "type": "_template_landscape_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "fixed",
+                        "value": 100
+                      },
+                      "border": {
+                        "corner_radius": 8
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/landscape-card-with-soft-line-graph-in-pastel-blue-and-lavender.png"
+                    },
+                    {
+                      "type": "container",
+                      "items": [
+                        {
+                          "text": "Behavior Trend",
+                          "type": "_template_card_title"
+                        },
+                        {
+                          "text": "Calmer mornings, increased evening restlessness",
+                          "type": "_template_card_description"
+                        }
+                      ],
+                      "width": {
+                        "type": "match_parent",
+                        "weight": 1
+                      },
+                      "height": {
+                        "type": "wrap_content"
+                      },
+                      "margins": {
+                        "left": 12
+                      },
+                      "orientation": "vertical"
+                    }
+                  ],
+                  "action": {
+                    "url": "action://navigate_to_analyzer",
+                    "log_id": "overview_behavior"
+                  }
+                },
+                {
+                  "type": "_template_landscape_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "fixed",
+                        "value": 100
+                      },
+                      "border": {
+                        "corner_radius": 8
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/landscape-card-with-pill-icon-and-checkmark-in-mint-green.png"
+                    },
+                    {
+                      "type": "container",
+                      "items": [
+                        {
+                          "text": "Medication Adherence",
+                          "type": "_template_card_title"
+                        },
+                        {
+                          "text": "Consistent with morning dose",
+                          "type": "_template_card_description"
+                        }
+                      ],
+                      "width": {
+                        "type": "match_parent",
+                        "weight": 1
+                      },
+                      "height": {
+                        "type": "wrap_content"
+                      },
+                      "margins": {
+                        "left": 12
+                      },
+                      "orientation": "vertical"
+                    }
+                  ],
+                  "action": {
+                    "url": "action://navigate_to_analyzer",
+                    "log_id": "overview_medication"
+                  }
+                },
+                {
+                  "type": "_template_landscape_card",
+                  "items": [
+                    {
+                      "type": "image",
+                      "scale": "fill",
+                      "width": {
+                        "type": "fixed",
+                        "value": 100
+                      },
+                      "border": {
+                        "corner_radius": 8
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 80
+                      },
+                      "image_url": "https://mediadirhub.com/vibe/landscape-card-with-upward-trend-arrow-and-smiling-face-icon.png"
+                    },
+                    {
+                      "type": "container",
+                      "items": [
+                        {
+                          "text": "Engagement Level",
+                          "type": "_template_card_title"
+                        },
+                        {
+                          "text": "Stable this week, higher quiz participation",
+                          "type": "_template_card_description"
+                        }
+                      ],
+                      "width": {
+                        "type": "match_parent",
+                        "weight": 1
+                      },
+                      "height": {
+                        "type": "wrap_content"
+                      },
+                      "margins": {
+                        "left": 12
+                      },
+                      "orientation": "vertical"
+                    }
+                  ],
+                  "action": {
+                    "url": "action://navigate_to_insights",
+                    "log_id": "overview_engagement"
+                  }
+                }
+              ],
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "wrap_content"
+              },
+              "orientation": "vertical"
+            }
+          ],
+          "width": {
+            "type": "match_parent"
+          },
+          "height": {
+            "type": "wrap_content"
+          },
+          "background": [
+            {
+              "type": "solid",
+              "color": "#F5F8FF"
+            }
+          ],
+          "orientation": "vertical"
+        }
+      }
+    ]
+  },
+  "templates": {
+    "_template_card_title": {
+      "type": "text",
+      "margins": {
+        "bottom": 8
+      },
+      "font_size": 18,
+      "max_lines": 1,
+      "text_color": "#1A1A1A",
+      "font_weight": "bold"
+    },
+    "_template_square_card": {
+      "type": "container",
+      "width": {
+        "type": "match_parent"
+      },
+      "border": {
+        "corner_radius": 12
+      },
+      "height": {
+        "type": "wrap_content"
+      },
+      "margins": {
+        "top": 8,
+        "left": 8,
+        "right": 8,
+        "bottom": 8
+      },
+      "paddings": {
+        "top": 16,
+        "left": 12,
+        "right": 12,
+        "bottom": 16
+      },
+      "background": [
+        {
+          "type": "solid",
+          "color": "#FFFFFF"
+        }
+      ],
+      "orientation": "vertical"
+    },
+    "_template_portrait_card": {
+      "type": "container",
+      "width": {
+        "type": "fixed",
+        "value": 145
+      },
+      "border": {
+        "corner_radius": 12
+      },
+      "height": {
+        "type": "wrap_content"
+      },
+      "margins": {
+        "top": 8,
+        "left": 8,
+        "right": 8,
+        "bottom": 8
+      },
+      "paddings": {
+        "top": 16,
+        "left": 12,
+        "right": 12,
+        "bottom": 16
+      },
+      "background": [
+        {
+          "type": "solid",
+          "color": "#FFFFFF"
+        }
+      ],
+      "orientation": "vertical"
+    },
+    "_template_landscape_card": {
+      "type": "container",
+      "width": {
+        "type": "match_parent"
+      },
+      "border": {
+        "corner_radius": 12
+      },
+      "height": {
+        "type": "wrap_content"
+      },
+      "margins": {
+        "top": 8,
+        "left": 12,
+        "right": 12,
+        "bottom": 8
+      },
+      "paddings": {
+        "top": 16,
+        "left": 16,
+        "right": 16,
+        "bottom": 16
+      },
+      "background": [
+        {
+          "type": "solid",
+          "color": "#FFFFFF"
+        }
+      ],
+      "orientation": "horizontal"
+    },
+    "_template_hero_cta_button": {
+      "role": "button",
+      "type": "text",
+      "width": {
+        "type": "wrap_content"
+      },
+      "border": {
+        "corner_radius": 12
+      },
+      "margins": {
+        "top": 16
+      },
+      "paddings": {
+        "top": 14,
+        "left": 24,
+        "right": 24,
+        "bottom": 14
+      },
+      "font_size": 16,
+      "background": [
+        {
+          "type": "solid",
+          "color": "#A8E6CF"
+        }
+      ],
+      "text_color": "#1A3A2F",
+      "font_weight": "medium",
+      "text_alignment_vertical": "center",
+      "text_alignment_horizontal": "center"
+    },
+    "_template_card_description": {
+      "type": "text",
+      "margins": {
+        "top": 4,
+        "bottom": 0
+      },
+      "font_size": 14,
+      "max_lines": 2,
+      "text_color": "#666666"
+    }
+  }
+}
