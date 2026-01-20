@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>SmritiCare</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <div class="app">
@@ -15,38 +15,47 @@
     <p>AI Dementia Memory Assistant</p>
   </div>
 
+  <!-- Caregiver Input -->
   <div class="card">
     <h2>Caregiver Input</h2>
-    <textarea placeholder="Describe today's observation..."></textarea>
-    <button class="btn">Save Observation</button>
+    <textarea id="noteInput" placeholder="Describe today's observation..."></textarea>
+    <button class="btn" onclick="saveObservation()">Save Observation</button>
+    <button class="btn secondary" onclick="startVoice()">🎤 Voice Input</button>
   </div>
 
+  <!-- Patient Engagement -->
   <div class="card">
     <h2>Patient Engagement</h2>
     <div class="grid">
-      <div class="tile">🧩 Memory Quiz</div>
-      <div class="tile">👨‍👩‍👧 Family Recall</div>
-      <div class="tile">🖼️ Image Match</div>
-      <div class="tile">📅 Daily Tasks</div>
+      <div class="tile" onclick="startQuiz()">🧩 Memory Quiz</div>
+      <div class="tile" onclick="showFamily()">👨‍👩‍👧 Family Recall</div>
+      <div class="tile" onclick="startImageMatch()">🖼️ Image Match</div>
+      <div class="tile" onclick="dailyTask()">📅 Daily Tasks</div>
     </div>
+    <div id="engagementArea"></div>
   </div>
 
+  <!-- Doctor Analyzer -->
   <div class="card">
     <h2>Doctor Analyzer</h2>
     <div class="metric">
-      Cognitive Decline <span>⬇ Slow</span>
+      Cognitive Trend: <span id="cognitiveTrend">Stable</span>
     </div>
     <div class="metric">
-      Medication Adherence <span>92%</span>
+      Engagement Score: <span id="engagementScore">0%</span>
     </div>
-    <button class="btn">View Trends</button>
+
+    <canvas id="trendChart" width="300" height="120"></canvas>
+
+    <button class="btn" onclick="generateReport()">Generate Doctor Report</button>
   </div>
 
   <div class="footer">
-    Built for National Hackathon • SmritiCare
+    National Hackathon Demo • SmritiCare • Qdrant Powered
   </div>
 
 </div>
 
+<script src="script.js"></script>
 </body>
 </html>
