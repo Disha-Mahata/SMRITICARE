@@ -1,0 +1,807 @@
+{
+  "card": {
+    "log_id": "divkit_mobile_card",
+    "states": [
+      {
+        "state_id": 0,
+        "div": {
+          "type": "container",
+          "items": [
+            {
+              "type": "container",
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "wrap_content"
+              },
+              "id": "appypie-vu85wzvtgs",
+              "items": [
+                {
+                  "width": {
+                    "type": "match_parent"
+                  },
+                  "paddings": {
+                    "bottom": 0,
+                    "left": 15,
+                    "right": 15,
+                    "top": 0
+                  },
+                  "max_width": {
+                    "type": "fixed"
+                  },
+                  "orientation": "vertical",
+                  "type": "_template_grid_container",
+                  "items": [
+                    {
+                      "text": "Get In Touch",
+                      "text_color": "#ffffff",
+                      "heading_type": "h2",
+                      "corners": 4,
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "type": "_template_heading",
+                      "font_size": 30,
+                      "font_family": "Poppins",
+                      "font_weight": "medium",
+                      "text_alignment_horizontal": "center"
+                    },
+                    {
+                      "type": "text",
+                      "text": "We’re here to support you on your caregiving journey. Whether you have questions about SmritiCare, want to share your story, or need help using the app, our team is just a message away — ready to listen and help with kindness.",
+                      "text_color": "#ffffff",
+                      "font_size": 14,
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "font_family": "Poppins",
+                      "text_alignment_horizontal": "center",
+                      "paddings": {
+                        "top": 12
+                      }
+                    }
+                  ],
+                  "content_alignment_horizontal": "center",
+                  "content_alignment_vertical": "center"
+                }
+              ],
+              "background": [
+                {
+                  "type": "image",
+                  "image_url": "https://mediadirhub.com/vibe/soft-pastel-blue-gradient-background-with-lavender-text-smriticare-on-right-side.png",
+                  "scale": "fill",
+                  "content_alignment_horizontal": "center",
+                  "content_alignment_vertical": "center",
+                  "alpha": 1,
+                  "preload_required": true
+                },
+                {
+                  "type": "solid",
+                  "color": "#52000000"
+                }
+              ],
+              "paddings": {
+                "top": 40,
+                "bottom": 40
+              }
+            },
+            {
+              "type": "container",
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "wrap_content"
+              },
+              "id": "appypie-duklla6hpo",
+              "items": [
+                {
+                  "width": {
+                    "type": "match_parent"
+                  },
+                  "paddings": {
+                    "bottom": 0,
+                    "left": 15,
+                    "right": 15,
+                    "top": 0
+                  },
+                  "max_width": {
+                    "type": "fixed"
+                  },
+                  "orientation": "vertical",
+                  "type": "_template_grid_container",
+                  "items": [
+                    {
+                      "type": "gallery",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "wrap_content"
+                      },
+                      "items": [
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/call.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "Call",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "+91-0123456789",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-6phev8bg2s",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "wrap_content"
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ],
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top"
+                            }
+                          ],
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center"
+                        },
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center",
+                          "id": "appypie-mrp2vajbsc",
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/chat.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ],
+                              "id": "appypie-nsew1rjbsc"
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top",
+                              "id": "appypie-4nq9eojbsc",
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "WHATSAPP",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium",
+                                  "id": "appypie-wyjn31jbsc"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "+91-0123456789",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-534z32jbsc",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "wrap_content"
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center",
+                          "id": "appypie-0iksh7jy6c",
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/email.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ],
+                              "id": "appypie-4eguizjy6c"
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top",
+                              "id": "appypie-v36hotjy6c",
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "EMAIL",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium",
+                                  "id": "appypie-ndg2fzjy6c"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "info@email.com",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-mfa77gjy6c",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "wrap_content"
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center",
+                          "id": "appypie-gegnkjk0s4",
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/voice_chat.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ],
+                              "id": "appypie-mt2iu0k0s4"
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top",
+                              "id": "appypie-ngzffak0s4",
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "SKYPE",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium",
+                                  "id": "appypie-am2l5bk0s4"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "sarh.ander_us",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-ndn2ick0s4",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "fixed",
+                                    "value": 28
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center",
+                          "id": "appypie-lbp1o7k6vo",
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/location_on.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ],
+                              "id": "appypie-g8zp18k6vo"
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top",
+                              "id": "appypie-np3vvek6vo",
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "ADDRESS",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium",
+                                  "id": "appypie-58oy0lk6vo"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "456 Elm Avenue, Suite 101, Los Angeles, CA 90001",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-r82wo6k6vo",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "wrap_content"
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "container",
+                          "width": {
+                            "type": "match_parent"
+                          },
+                          "height": {
+                            "type": "wrap_content"
+                          },
+                          "orientation": "horizontal",
+                          "content_alignment_horizontal": "start",
+                          "content_alignment_vertical": "center",
+                          "id": "appypie-t457njk8oc",
+                          "items": [
+                            {
+                              "alignment_horizontal": "right",
+                              "height": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "width": {
+                                "type": "fixed",
+                                "value": 50
+                              },
+                              "type": "_template_icon",
+                              "image_url": "https://mediadirhub.com/font-icons/public.svg",
+                              "paddings": {
+                                "top": 12,
+                                "bottom": 12,
+                                "start": 12,
+                                "end": 12
+                              },
+                              "border": {
+                                "stroke": {
+                                  "color": "#e7e7e7",
+                                  "width": 1
+                                },
+                                "corners_radius": {
+                                  "top-left": 12,
+                                  "bottom-left": 12,
+                                  "bottom-right": 12,
+                                  "top-right": 12
+                                }
+                              },
+                              "tint_color": "#000000",
+                              "background": [
+                                {
+                                  "type": "solid",
+                                  "color": "#fafafa"
+                                }
+                              ],
+                              "id": "appypie-ckjw8tk8oc"
+                            },
+                            {
+                              "type": "container",
+                              "width": {
+                                "type": "match_parent"
+                              },
+                              "height": {
+                                "type": "wrap_content"
+                              },
+                              "paddings": {
+                                "start": 16
+                              },
+                              "content_alignment_horizontal": "start",
+                              "content_alignment_vertical": "top",
+                              "id": "appypie-x4awx6k8oc",
+                              "items": [
+                                {
+                                  "type": "text",
+                                  "text": "WEBSITE",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "font_weight": "medium",
+                                  "id": "appypie-8phaxok8oc"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "https://www.stunningwebsite.com/",
+                                  "width": {
+                                    "type": "match_parent"
+                                  },
+                                  "font_size": 14,
+                                  "font_family": "Poppins",
+                                  "id": "appypie-wdfweak8oc",
+                                  "paddings": {
+                                    "top": 8
+                                  },
+                                  "text_shadow": {
+                                    "color": "#00909090"
+                                  },
+                                  "height": {
+                                    "type": "wrap_content"
+                                  },
+                                  "text_color": "#909090"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "paddings": {
+                        "start": 15,
+                        "end": 15
+                      },
+                      "column_count": 1,
+                      "orientation": "vertical",
+                      "item_spacing": 24
+                    }
+                  ]
+                }
+              ],
+              "orientation": "vertical",
+              "paddings": {
+                "top": 40,
+                "bottom": 130
+              }
+            }
+          ],
+          "width": {
+            "type": "match_parent"
+          },
+          "height": {
+            "type": "wrap_content"
+          },
+          "paddings": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "background": [
+            {
+              "type": "solid",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "templates": {
+    "_template_heading": {
+      "type": "text",
+      "text_color": "#333333",
+      "font_size": 36,
+      "font_weight": "bold",
+      "border": {
+        "$corner_radius": "corners"
+      },
+      "max_lines": 0,
+      "auto_ellipsize": true,
+      "selectable": false,
+      "heading_level": 1,
+      "width": {
+        "type": "match_parent"
+      }
+    },
+    "_template_grid_container": {
+      "type": "container",
+      "content_alignment_vertical": "top",
+      "content_alignment_horizontal": "start"
+    },
+    "_template_icon": {
+      "accessibility": {
+        "description": "Закрыть",
+        "mode": "merge",
+        "type": "button"
+      },
+      "image_url": "https://mediadirhub.com/font-icons/home.svg",
+      "tint_color": "#000",
+      "type": "image"
+    }
+  }
+}
