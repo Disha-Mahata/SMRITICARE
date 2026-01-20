@@ -1,0 +1,71 @@
+/* =====================
+   SmritiCare Theme
+===================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(180deg, #f5f7ff, #eef1ff);
+  color: #1f2937;
+}
+
+/* App Container */
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 16px 0;
+}
+
+.header h1 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.header p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Section Titles */
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(79, 70, 229, 0.4
