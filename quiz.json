@@ -1,0 +1,145 @@
+{
+  "card": {
+    "log_id": "divkit_mobile_card",
+    "states": [
+      {
+        "state_id": 0,
+        "div": {
+          "type": "container",
+          "width": {
+            "type": "match_parent"
+          },
+          "items": [
+            {
+              "type": "container",
+              "width": {
+                "type": "match_parent"
+              },
+              "height": {
+                "type": "wrap_content"
+              },
+              "id": "appypie-k9d3u2v0au",
+              "items": [
+                {
+                  "width": {
+                    "type": "match_parent"
+                  },
+                  "paddings": {
+                    "bottom": 0,
+                    "left": 15,
+                    "right": 15,
+                    "top": 0
+                  },
+                  "max_width": {
+                    "type": "fixed"
+                  },
+                  "orientation": "vertical",
+                  "type": "_template_grid_container",
+                  "items": [
+                    {
+                      "id": "item_image",
+                      "type": "image",
+                      "image_url": "https://mediadirhub.com/vibe/portrait-card-showing-a-simple-image-of-a-clock-and-calendar-with-soft-glow.png",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "height": {
+                        "type": "fixed",
+                        "value": 250
+                      },
+                      "preload_required": true,
+                      "border": {
+                        "corners_radius": {
+                          "top-left": 20,
+                          "bottom-left": 20,
+                          "top-right": 20,
+                          "bottom-right": 20
+                        }
+                      }
+                    },
+                    {
+                      "id": "heading_text",
+                      "text": "Memory Quiz",
+                      "text_color": "#000",
+                      "heading_type": "h2",
+                      "corners": 4,
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "type": "_template_heading",
+                      "font_size": 22,
+                      "font_family": "Poppins",
+                      "height": {
+                        "type": "wrap_content"
+                      },
+                      "paddings": {
+                        "top": 16,
+                        "bottom": 8
+                      },
+                      "font_weight": "medium"
+                    },
+                    {
+                      "id": "description_text",
+                      "type": "text",
+                      "text": "A memory quiz is a gentle, engaging activity designed to stimulate cognitive function and reinforce recall in a fun, low-pressure way. These quizzes often involve recognizing familiar objects, recalling recent events, identifying names or dates, or matching pictures with words. They are commonly used in educational settings or wellness programs to support mental agility without stress. Memory quizzes encourage active thinking, promote confidence in mental abilities, and can be adapted for various skill levels. Done with friends or family, they become a bonding experience that celebrates learning and shared experiences. No scores are judged harshly—progress and participation matter most. Regular, playful engagement with memory exercises contributes to lifelong mental wellness and joyful mental exploration.",
+                      "width": {
+                        "type": "match_parent"
+                      },
+                      "font_size": 14,
+                      "font_family": "Poppins",
+                      "height": {
+                        "type": "wrap_content"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "paddings": {
+                "top": 40,
+                "bottom": 200
+              }
+            }
+          ],
+          "height": {
+            "type": "wrap_content"
+          },
+          "paddings": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 0
+          },
+          "background": [
+            {
+              "type": "solid",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "templates": {
+    "_template_heading": {
+      "type": "text",
+      "text_color": "#333333",
+      "font_size": 36,
+      "font_weight": "bold",
+      "border": {
+        "$corner_radius": "corners"
+      },
+      "max_lines": 0,
+      "auto_ellipsize": true,
+      "selectable": false,
+      "heading_level": 1,
+      "width": {
+        "type": "match_parent"
+      }
+    },
+    "_template_grid_container": {
+      "type": "container",
+      "content_alignment_vertical": "top",
+      "content_alignment_horizontal": "start"
+    }
+  }
+}
